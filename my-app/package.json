@@ -1,5 +1,5 @@
 {
-  
+  "homepage" : "http://mac0607.github.io/test-6",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -15,11 +15,12 @@
     "reactstrap": "^5.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "homepage" : "http://mac0607.github.io/build"
+    "eject": "react-scripts eject"
     
   },
   "browserslist": [
